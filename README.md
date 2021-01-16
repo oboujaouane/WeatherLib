@@ -37,5 +37,5 @@ pod 'WeatherLib'
 Finally, implement the WeatherLib startWithAPIKey: method in your AppDelegate application:didFinishLaunchingWithOptions: method:
 
 ```swift
-    WL.start(withAPIKey: "YOUR_API_KEY")
+WL.APIKey = "YOUR_API_KEY"
 ```
