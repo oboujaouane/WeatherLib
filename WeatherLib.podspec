@@ -62,14 +62,13 @@ Get the current weather for a particular location and check out forecasts!
   #
 
   s.ios.deployment_target = "11.0"
-  s.swift_version = "4.2"
+  s.swift_version = "5"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-
   s.source        = { :git => "https://github.com/oboujaouane/WeatherLib.git", :tag => "#{s.version}" }
 
 
@@ -81,7 +80,7 @@ Get the current weather for a particular location and check out forecasts!
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "WeatherLib/**/*.{h,m,plist,storyboard,swift}"
+  s.source_files  = "WeatherLib/**/*.{h,m,storyboard,swift}"
 
 
 end
