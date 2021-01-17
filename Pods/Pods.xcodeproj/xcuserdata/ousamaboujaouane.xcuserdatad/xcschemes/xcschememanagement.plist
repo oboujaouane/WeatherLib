@@ -4,29 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>WeatherLib.xcscheme_^#shared#^_</key>
+		<key>Pods-WeatherLibExamples.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
-		<key>WeatherLibExamples.xcscheme_^#shared#^_</key>
+		<key>WeatherLib.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>24F33F9325B1E27C004D034F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>24F33F9C25B1E27C004D034F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>
