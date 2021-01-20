@@ -15,12 +15,8 @@ open class WheatherLib {
             static let wlManager = WheatherLib()
         }
         
-        /** @return Returns the default singleton instance. */
         return Static.wlManager
     }
-    
-    /**
-    apiKey. Default is "ADD_YOUR_API_HERE".
-    */
+
     open var apiKey = "ADD_YOUR_API_HERE"
 }
