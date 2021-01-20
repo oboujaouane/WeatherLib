@@ -1,0 +1,16 @@
+PODS:
+  - WeatherLib (0.0.1)
+
+DEPENDENCIES:
+  - WeatherLib (from `.`)
+
+EXTERNAL SOURCES:
+  WeatherLib:
+    :path: "."
+
+SPEC CHECKSUMS:
+  WeatherLib: c550b3295257c8d80fc27787a05f96a9802b95df
+
+PODFILE CHECKSUM: 022a70f5647f77e97e25d17e0880c0585573f8cb
+
+COCOAPODS: 1.10.1
