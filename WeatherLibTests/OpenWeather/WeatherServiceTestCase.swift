@@ -98,7 +98,7 @@ class WeatherServiceTestCase: XCTestCase {
 
         // When
         let expectation = XCTestExpectation(description: "Wait for queue change.")
-        weatherService.getWeather(for: 2988507) { success, entireWeather in
+        weatherService.getWeather(for: 5128581) { success, entireWeather in
             //Then
             let city = "New York"
             let description = "overcast clouds"
