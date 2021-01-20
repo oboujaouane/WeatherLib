@@ -8,16 +8,16 @@
 import Foundation
 
 // MARK: - Weather
-struct EntireWeather: Codable {
-    let weather: [Weather]
-    let main: Main
-    let name: String
+public struct EntireWeather: Codable {
+    public let weather: [Weather]
+    public let main: Main
+    public let name: String
 }
 
 // MARK: - Main
-struct Main: Codable {
-    let temp, feelsLike, tempMin, tempMax: Double
-    let pressure, humidity: Int
+public struct Main: Codable {
+    public let temp, feelsLike, tempMin, tempMax: Double
+    public let pressure, humidity: Int
 
     enum CodingKeys: String, CodingKey {
         case temp
@@ -29,9 +29,9 @@ struct Main: Codable {
 }
 
 // MARK: - Weather
-struct Weather: Codable {
-    let weatherId: Int
-    let main, weatherDescription, icon: String
+public struct Weather: Codable {
+    public let weatherId: Int
+    public let main, weatherDescription, icon: String
 
     enum CodingKeys: String, CodingKey {
         case weatherId = "id"
