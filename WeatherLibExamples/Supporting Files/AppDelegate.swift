@@ -5,8 +5,8 @@
 //  Created by ousama boujaouane on 15/01/2021.
 //
 
-import WeatherLib
 import UIKit
+import WeatherLib
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        WheatherLib.shared().apiKey = "b828fe546e4269ad871ed35d48c4ac61"
+        WeatherLib.shared().apiKey = "b828fe546e4269ad871ed35d48c4ac61"
         return true
     }
 }

@@ -5,17 +5,17 @@
 //  Created by ousama boujaouane on 16/01/2021.
 //
 
-open class WheatherLib {
+open class WeatherLib {
     /**
     Returns the default singleton instance.
     */
-    open class func shared() -> WheatherLib {
+    open class func shared() -> WeatherLib {
         struct Static {
-            //Singleton instance. Initializing keyboard manger.
-            static let wlManager = WheatherLib()
+            //Singleton instance.
+            static let weatherLib = WeatherLib()
         }
         
-        return Static.wlManager
+        return Static.weatherLib
     }
 
     open var apiKey = "ADD_YOUR_API_HERE"
