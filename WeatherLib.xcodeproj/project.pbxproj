@@ -13,6 +13,7 @@
 		24497EC925B88B2900FB9519 /* AK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24497EC825B88B2800FB9519 /* AK.swift */; };
 		246E7C9125B8E0E40058EAD8 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E7C9025B8E0E40058EAD8 /* City.swift */; };
 		246E7C9625B8E1590058EAD8 /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E7C9525B8E1590058EAD8 /* Cities.swift */; };
+		246E7CA525B8E7F80058EAD8 /* CityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E7CA425B8E7F80058EAD8 /* CityDetailViewController.swift */; };
 		249B1F1925B8C9D700F3AF62 /* FakeResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249B1F1825B8C9D700F3AF62 /* FakeResponseData.swift */; };
 		249B1F2125B8CA4900F3AF62 /* URLSessionFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249B1F2025B8CA4900F3AF62 /* URLSessionFake.swift */; };
 		249B1F2925B8CC5F00F3AF62 /* openWeatherDataSet.json in Resources */ = {isa = PBXBuildFile; fileRef = 249B1F2825B8CC5F00F3AF62 /* openWeatherDataSet.json */; };
@@ -45,6 +46,7 @@
 		24497EC825B88B2800FB9519 /* AK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AK.swift; sourceTree = "<group>"; };
 		246E7C9025B8E0E40058EAD8 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		246E7C9525B8E1590058EAD8 /* Cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
+		246E7CA425B8E7F80058EAD8 /* CityDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailViewController.swift; sourceTree = "<group>"; };
 		249B1F1825B8C9D700F3AF62 /* FakeResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeResponseData.swift; sourceTree = "<group>"; };
 		249B1F2025B8CA4900F3AF62 /* URLSessionFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionFake.swift; sourceTree = "<group>"; };
 		249B1F2825B8CC5F00F3AF62 /* openWeatherDataSet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = openWeatherDataSet.json; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				24F33FBA25B1E34D004D034F /* CitiesViewController.swift */,
+				246E7CA425B8E7F80058EAD8 /* CityDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -449,6 +452,7 @@
 				24F33FBB25B1E34D004D034F /* CitiesViewController.swift in Sources */,
 				24F33FB725B1E34D004D034F /* AppDelegate.swift in Sources */,
 				246E7C9125B8E0E40058EAD8 /* City.swift in Sources */,
+				246E7CA525B8E7F80058EAD8 /* CityDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
