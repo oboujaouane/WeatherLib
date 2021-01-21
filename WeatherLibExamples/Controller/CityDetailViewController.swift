@@ -16,7 +16,7 @@ class CityDetailViewController: UIViewController {
     @IBOutlet private weak var descriptionLabel: UILabel!
     @IBOutlet private weak var humidityLabel: UILabel!
     
-    // MARK: - Properties
+    // MARK: - Property
     var city: City?
     
     // MARK: - Life cycle
@@ -44,5 +44,4 @@ class CityDetailViewController: UIViewController {
             }
         }
     }
-    
 }
