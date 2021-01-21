@@ -1,6 +1,6 @@
 # WeatherLib
 
-<div style="width: 1000px; height 600px;"><img src="WeatherLib.png" width="30%" height="30%" align="right"></div>
+<div style="width: 1000px; height 600px;"><img src="weatherLib.png" width="30%" height="30%" align="right"></div>
 
 ## Overview
 
@@ -9,15 +9,14 @@ Get the current weather for a particular location and check out forecasts!
 
 The library incorporates:
 
-- Example project
+- Examples project
 - MVC Pattern
 - Swift
 - Unit tests
 
-## Features
+## Feature
 
 - Get forecasts for a defined town
-- Get the list of cities with their ID
 
 ## Requirements
 
@@ -33,9 +32,8 @@ The library incorporates:
 ```ruby
 pod 'WeatherLib'
 ```
-
-Finally, implement the WeatherLib startWithAPIKey: method in your AppDelegate application:didFinishLaunchingWithOptions: method:
+Finally, set the WeatherLib apiKey variable in your AppDelegate application:didFinishLaunchingWithOptions: method:
 
 ```swift
-    WL.start(withAPIKey: "YOUR_API_KEY")
+WeatherLib.shared().apiKey = "REPLACE_WITH_YOU_APIKEY"
 ```
