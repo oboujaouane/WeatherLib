@@ -1,5 +1,7 @@
 # WeatherLib
 
+<div style="width: 1000px; height 600px;"><img src="weatherLib.png" width="30%" height="30%" align="right"></div>
+
 ## Overview
 
 WeatherLib is a weather framework which collects weather information from openweathermap API using Swift language.
@@ -7,7 +9,7 @@ Get the current weather for a particular location and check out forecasts!
 
 The library incorporates:
 
-- Example project
+- Examples project
 - MVC Pattern
 - Swift
 - Unit tests
