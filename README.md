@@ -1,7 +1,5 @@
 # WeatherLib
 
-<div style="width: 1000px; height 600px;"><img src="WeatherLib.png" width="30%" height="30%" align="right"></div>
-
 ## Overview
 
 WeatherLib is a weather framework which collects weather information from openweathermap API using Swift language.
@@ -14,10 +12,9 @@ The library incorporates:
 - Swift
 - Unit tests
 
-## Features
+## Feature
 
 - Get forecasts for a defined town
-- Get the list of cities with their ID
 
 ## Requirements
 
@@ -33,9 +30,8 @@ The library incorporates:
 ```ruby
 pod 'WeatherLib'
 ```
-
-Finally, implement the WeatherLib startWithAPIKey: method in your AppDelegate application:didFinishLaunchingWithOptions: method:
+Finally, set the WeatherLib apiKey variable in your AppDelegate application:didFinishLaunchingWithOptions: method:
 
 ```swift
-WL.APIKey = "YOUR_API_KEY"
+WeatherLib.shared().apiKey = "REPLACE_WITH_YOU_APIKEY"
 ```
